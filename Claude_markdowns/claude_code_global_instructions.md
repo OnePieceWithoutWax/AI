@@ -24,6 +24,15 @@ These instructions apply to every project opened in Claude Code.
 
 ---
 
+## Code Standards
+
+- Type hints required on all functions.
+- Docstrings required on all public functions and classes.
+- No debug code or print statements in committed files.
+- No TODOs left in edited files without a corresponding backlog entry.
+
+---
+
 ## Git
 
 - Create new commits rather than amending, unless explicitly told to amend.
@@ -41,3 +50,13 @@ These instructions apply to every project opened in Claude Code.
 - On failure: read the error and diagnose before changing approach. Do not retry the identical action blindly.
 - Do not ask clarifying questions for straightforward tasks — just execute.
 - Do not propose follow-up improvements or refactors after completing what was asked.
+- For tasks spanning more than one file: check for a `PROGRESS.md` first and resume from it if it exists. Write the plan before touching files.
+- When a decision has significant architectural impact or requirements are ambiguous, surface it as a blocker rather than silently assuming. Do not make choices that affect files outside the current scope without confirmation.
+
+---
+
+## Boundaries
+
+- Do not add new dependencies without confirmation.
+- Do not delete files — mark as deprecated and ask.
+- Do not modify shared interfaces without confirming downstream impact.

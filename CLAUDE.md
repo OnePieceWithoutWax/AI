@@ -33,8 +33,8 @@ The ongoing work in this repo is expanding the instruction library. When adding 
 | File | Injection Point | What it covers |
 |------|----------------|----------------|
 | `claude_cowork_general_instructions.md` | Cowork global settings | Session behavior: scope management, file operation rules, logging format, and reporting standards for Cowork sessions. |
-| `claude_code_global_instructions.md` | `~/.claude/CLAUDE.md` | Universal Claude Code behavior across all projects: response style, editing discipline, git safety, and decision-making defaults. |
-| `claude_code_project_template.md` | `./CLAUDE.md` per project | Scaffold for any project's CLAUDE.md — sections for commands, architecture, conventions, and gotchas. |
+| `claude_code_global_instructions.md` | `~/.claude/CLAUDE.md` | Universal Claude Code behavior: response style, editing discipline, code standards, git safety, decision-making, and boundaries. |
+| `claude_code_project_template.md` | `./CLAUDE.md` per project | Full project scaffold: stack, directories, commands, architecture, conventions, boundaries, and an optional Task Chunking section (PROGRESS.md workflow) — remove the chunking section for small projects. |
 | `claude_web_custom_instructions.md` | claude.ai → Settings → Custom Instructions | Two-field content: who the user is (technical depth, preferences) and how Claude should respond (style, format, what to omit). |
 | `claude_web_project_instructions.md` | claude.ai → Projects → Instructions | Per-project system prompt template: context, background knowledge, mode of assistance, constraints, and output preferences. |
 | `claude_api_system_prompt.md` | Anthropic API `system` parameter | Base system prompt for any API-built application: role, behavior rules, output format, hard constraints, and application context. |
