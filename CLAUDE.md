@@ -28,6 +28,12 @@ The ongoing work in this repo is expanding the instruction library. When adding 
 - When a new injection point is identified (a new tool, a new settings location), create a new file for it rather than appending to an existing one.
 - Bracketed placeholder sections `[like this]` are acceptable only where content is inherently application-specific and cannot be generalised.
 
+## Respurces
+table of contents for every Claude Code documentation page
+read this to load the latest docs
+https://code.claude.com/docs/en/claude_code_docs_map.md
+
+
 ## Project Summary
 
 | File | Injection Point | What it covers |
